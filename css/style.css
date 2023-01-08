@@ -382,7 +382,7 @@ time {
 
 .header-basket {}
 
-.header-basket:hover {
+.header-basket:hover .header-basket__icon{
 	fill: #B17955;
 }
 
