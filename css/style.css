@@ -438,6 +438,12 @@ time {
 	margin-right: 40px
 }
 
+.header__nav .nav__link:hover,
+.header__nav .nav-link__title:hover,
+.header-contact__number-link:hover {
+	color: #B17955;
+}
+
 .header__action-btn {
 	display: flex;
 	align-items: center;
