@@ -1,0 +1,130 @@
+@media (min-width: 481px) {
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1025px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (max-width: 1250px) {
+	.header__toggles {
+		margin-right: 24px;
+	}
+	.header__nav .nav__item:not(:last-child) {
+		margin-right: 20px;
+	}
+	.header__action-btn {
+		margin-left: 20px;
+	}
+	.action-btn__subtitle {
+		left: 10px;
+		right: 10px;
+	}
+}
+
+@media (max-width: 1199px) {
+	.header__toggles {
+		margin-right: 14px;
+	}
+	.header__nav .nav__item:not(:last-child) {
+		margin-right: 10px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		z-index: 1000;
+		overflow: auto;
+	}
+	.header__nav {
+		position: absolute;
+		top: -1000px;
+		left: 0;
+		z-index: 10001;
+	}
+	.header__nav .nav__list {
+		height: 100%;
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 100px 20px;
+	}
+	.header__contact {
+		flex-direction: column;
+	}
+	.header-contact__work-time {
+		display: flex;
+		align-items: center;
+	}
+	.header-contact__number-subtitle,
+	.header-contact__address {
+		display: none;
+	}
+	.header__nav .nav__link,
+	.nav-link__title {
+		font-size: 24px;
+	}
+	.header__basket {
+		position: relative;
+		margin-right: 18px;
+	}
+	.header-baskets__title {
+		text-align: center;
+		display: block;
+		font-size: 11px;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		right: 3px;
+		color: #fff;
+		width: 13px;
+		overflow: hidden;
+		line-height: 13px;
+		z-index: 2;
+	}
+	.header-baskets__title:after  {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 13px;
+		height: 13px;
+		background: #B17955;
+		border-radius: 50%;
+		z-index: -1;
+	}
+	.header__toggles--dc {
+		display: none;
+	}
+	.header__toggles--mb {
+		display: block;
+	}
+	.header__action-btn {
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 575px) {
+}
+
+@media (max-width: 480px) {
+}
