@@ -6,17 +6,17 @@ $(document).ready(function() {
 	});
 });
 
-$('.tickets-slider').slick({
-	slidesToShow: 3,
+$('.intro-slider').slick({
+	slidesToShow: 1,
 	adaptiveHeight: true,
-	slidesToScroll: 3,
+	slidesToScroll: 1,
 	speed: 700,
 	infinite: true,
 	responsive: [
 		{
 			breakpoint: 991,
 			settings: {
-			slidesToShow: 2,
+			slidesToShow: 1,
 			slidesToScroll: 1,
 		}
 		},
