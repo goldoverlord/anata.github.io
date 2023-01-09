@@ -155,7 +155,6 @@
 		display: block;
 	}
 	.header__top-line {
-		justify-content: space-between;
 		z-index: 10;
 	}
 	.header__contact {
@@ -168,9 +167,6 @@
 	.header-contact__number,
 	.header-contact__work-time {
 		margin-right: 0;
-	}
-	.header__logo {
-		margin-right: 37px;
 	}
 	.header__toggles {
 		margin-right: 4px;
@@ -226,7 +222,6 @@
 }
 
 @media (max-width: 480px) {
-	.header__logo,
 	.header__contact,
 	.header__basket {
 		margin-right: 10px;
