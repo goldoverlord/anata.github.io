@@ -155,6 +155,7 @@ time {
 	display: block;
 	width: 100%;
 	height: auto;
+	transition: all .4s;
 }
 
 .logo__img--logo {
@@ -186,11 +187,11 @@ time {
 	background: #000000;
 	left: 0;
 	z-index: 1;
-	transition: all .4s;
 }
 
 .toggles__toggle:nth-child(1) {
 	top: 1px;
+	transition: all .4s;
 }
 
 .toggles__toggle:nth-child(2) {
@@ -199,6 +200,7 @@ time {
 
 .toggles__toggle:nth-child(3) {
 	bottom: 0;
+	transition: all .4s;
 }
 
 .nav {
@@ -228,6 +230,7 @@ time {
 	font-size: 16px;
 	color: #000;
 	white-space: nowrap;
+	transition: all .4s;
 }
 
 .nav-link {
@@ -263,6 +266,7 @@ time {
 	position: relative;
 	z-index: 1;
 	white-space: nowrap;
+	transition: all .4s;
 }
 
 .action-btn:hover {
@@ -294,6 +298,7 @@ time {
 	height: 20px;
 	margin-right: 16px;
 	fill: #B17955;
+	transition: all .4s;
 }
 
 .action-btn__title {
@@ -355,6 +360,7 @@ time {
 .header-contact__number {
 	text-align: center;
 	margin-right: 32px;
+	position: relative;
 }
 
 .header-contact__number-link {
@@ -362,6 +368,16 @@ time {
 	font-size: 16px;
 	font-weight: 600;
 	color: #000;
+	transition: all .4s;
+}
+
+.header-contact__number-link:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .header-contact__number-subtitle {
@@ -397,6 +413,7 @@ time {
 	height: 24px;
 	margin-right: 16px;
 	fill: #000;
+	transition: all .4s;
 }
 
 .header-baskets__title {
