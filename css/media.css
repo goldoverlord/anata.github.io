@@ -222,6 +222,7 @@
 		flex: 1 0 auto;
 		flex-direction: row;
 		align-items: center;
+		justify-content: space-around;
 		padding: 16px 20px 20px 20px;
 	}
 	.intro-slider .slide-content__item:not(:last-child) {
@@ -229,9 +230,15 @@
 	}
 	.intro-slider .slide-card__suptitle {
 		font-size: 14px;
+		line-height: 1.2;
+	}
+	.intro-slider .slide-card__subtitle {
+		font-size: 12px;
+		line-height: 1.2;
 	}
 	.intro-slider .slide-card__title {
 		font-size: 54px;
+		line-height: 1;
 	}
 	.intro-slider .slide-card__btn {
 		font-size: 16px;
@@ -241,7 +248,7 @@
 
 @media (max-width: 767px) {
 	.intro {
-		padding-top: 152px;
+		padding-top: 160px;
 	}
 	.header__logo .logo__img--title {
 		display: none;
