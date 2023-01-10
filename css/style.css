@@ -268,6 +268,7 @@ iframe {
 	width: 24px;
 	height: 24px;
 	margin-right: 16px;
+	fill: #878B90;
 }
 
 .nav-link__title {
@@ -370,7 +371,9 @@ iframe {
 	height: 100%;
 }
 
-.slide {}
+.slide {
+	height: 100%;
+}
 
 .slick-track {
 	display: flex;
@@ -792,7 +795,7 @@ iframe {
 	color: #000;
 }
 
-.gallery-slider .btn__img {
+.gallery-slider .btn__icon {
 	fill: #000;
 }
 
@@ -860,6 +863,7 @@ iframe {
 	display: block;
 	width: 16px;
 	height: 16px;
+	fill: rgba(0,0,0,.4);
 }
 
 .slide-card-content__bottom-line {
@@ -1099,6 +1103,11 @@ iframe {
 	display: block;
 	width: 32px;
 	height: 32px;
+	fill: #fff;
+}
+
+.social-list__link:hover .social-list__icon {
+	fill: #878B90;
 }
 
 .footer-action__nav {
