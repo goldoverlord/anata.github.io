@@ -6,7 +6,7 @@ $(document).ready(function() {
 	});
 });
 
-$('.intro-slider').slick({
+$('.intro-slider,.gallery-slider').slick({
 	slidesToShow: 1,
 	adaptiveHeight: true,
 	slidesToScroll: 1,
