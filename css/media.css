@@ -90,8 +90,8 @@
 
 @media (max-width: 1024px) {
 	.intro {
+		height: 100vh;
 		padding-top: 141px;
-		height: 100%;
 	}
 	body.is-show .toggles__toggle:nth-child(1) {
 		transform: rotate(45deg);
@@ -262,6 +262,9 @@
 		flex: 0 0 100%;
 		max-width: 100%;
 	}
+.footer__action-btn .action-btn:not(:last-child) {
+    margin-right: 0px;
+}
 }
 
 @media (max-width: 991px) {
